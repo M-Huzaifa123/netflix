@@ -1,0 +1,671 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color:#1d1618;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./image/PK-en-20241223-TRIFECTA-perspective_85ff0c55-7fef-41fd-8447-76e72e8dbaa0_medium.jpg");
+    background-size: cover;
+    
+}
+
+.cover{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.532);
+    box-shadow: 0px 0px 177px -28px rgba(0,0,0,1) inset;
+-webkit-box-shadow: 0px 0px 177px -28px rgba(0,0,0,1) inset;
+-moz-box-shadow: 0px 0px 177px -28px rgba(0,0,0,1) inset;
+}
+
+.logo{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: -290px;
+    left: 80px;
+}
+
+svg{
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+}
+
+header button{
+    width: 78px;
+    background-color: rgba(255, 0, 0, 0.767);
+    z-index: 4;
+    color: white;
+    position: relative;
+    left: -50px;
+    top: 32px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 100;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+header button:hover{
+    background-color: rgb(255, 3, 3);
+}
+
+
+header h1{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: fit-content;
+    z-index: 3;
+}
+
+header h2{
+    color: white;
+    width: fit-content;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+   z-index: 3;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+    position: relative;
+    top: 200px;
+}
+
+.head p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.head h6{
+    font-size: 16px;
+}
+
+.head input{
+    width: 390px;
+    height: 55px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.501);
+    color: rgb(255, 255, 255);
+    display: inline;
+    padding-right: 10px;
+    outline: none;
+    border: 1px solid white;
+    padding-left: 15px;
+    font-size: 24px;
+    top: 10px;
+    right: 88px;
+    border-radius: 0px;
+}
+
+.head button{
+    height: 55px;
+    width: 180px;
+    border-radius: 0px;
+    display: inline;
+    background-color: red;
+    position: relative;
+    top: -45px;
+    font-size: 24px;
+    left: 98px;
+}
+
+
+.sign{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+    position: relative;
+    top: 90px;
+}
+
+.sign form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 462px;
+    background-color: rgba(0, 0, 0, 0.789);
+}
+
+.sign h1{
+    position: relative;
+    top: -10px;
+    left: -93px;
+    font-size: 30px;
+}
+
+.sign .input{
+    width: 70%;
+    position: relative;
+    top: 10px;
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+.sign button{
+    width: 70%;
+    position: relative;
+    height: 35px;
+    left: 0px;
+    border-radius: 0px;
+    background-color: #3b3838;
+}
+
+.sign label{
+    position: relative;
+    top: 25px;
+    left: -91px;
+    font-size: small;
+}
+
+label input{
+    width: 14px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.sign a{
+    position: relative;
+    left: 110px;
+    top: -25px;
+    font-size: small;
+}
+
+.sign h5{
+    font-size: 14px;
+    position: relative;
+    left: -50px;
+    top: -25px;
+    color: #a8a7a7;
+}
+
+.sign h6{
+    width: 80%;
+    font-size: 12px;
+    height: fit-content;
+}
+
+.trend{
+    width: 100vh;
+    position: relative;
+    top: 40px;
+}
+
+.trend h1{
+    font-size: 25px;
+    width: fit-content;
+    color: white;
+    text-shadow: 0px 0px 5px 2px white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 77px;
+}
+
+.trend .select{
+    position: relative;
+    left: 850px;
+    top: -35px;
+    width: 145px;
+    height: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.594);
+    color: white;
+    z-index: 2;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding-left: 36.5px;
+    padding-right: 15px;
+}
+
+.trend .select2{
+    position: relative;
+    left: 880px;
+    top: -35px;
+    z-index: 2;
+    width: 145px;
+    height: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.594);
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding-left: 36.5px;
+    padding-right: 15px;
+}
+
+.trend select:focus{
+    border: 2px solid white;
+}
+
+
+.slider{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -20px;
+    padding: 50px;
+    align-items: center;
+    position: relative;
+}
+
+.slide{
+    height: 259px;
+    width: 132px;
+    margin-right: 30px;
+    /* overflow: hidden; */
+    border-radius: 25px;
+}
+
+
+.slide img{
+    height: 255px;
+    width: 128px;
+    border-radius: 25px;
+}
+.slide:hover{
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+.slide span{
+    position: relative;
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: -20px;
+    top: -270px;
+   color: #000000;
+    z-index: 2;
+}
+
+.res{
+    font-size: 25px;
+    width: fit-content;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 5px 2px white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 10px;
+    left: 77px;
+}
+
+.slider2{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -20px;
+    padding: 50px;
+    align-items: center;
+    position: relative;
+}
+
+.slider2 div{
+    width: 400px;
+    height: 145px;
+    margin-right: 10px;
+    background-color: #272727;
+    border: 2px solid #222222;
+    border-radius: 20px;
+}
+
+.slides p{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.slides img{
+    width: 60px;
+    float: right;
+    position: relative;
+    top: 60px;
+    left: -10px;
+}
+
+.slides #img{
+    position: relative;
+    top: 37px;
+}
+
+.faq {
+    max-width: 94%;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .faq h1 {
+    font-size: 25px;
+    width: fit-content;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 5px 2px white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  details {
+    background: #333;
+    margin: 10px 0;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+    background-color: #272727;
+    border: 2px solid #222222;
+  }
+  
+  summary {
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  summary::after {
+    content: "+";
+    font-size: 44px;
+    color: #fff;
+    transition: transform 0.3s ease; /* Smooth rotation effect */
+    margin-left: 30px; /* Adds space between the text and the plus sign */
+  }
+  
+  /* Rotate the plus sign when the details are open */
+  details[open] summary::after {
+    transform: rotate(45deg); /* Rotates the plus sign */
+  }
+
+  summary::marker {
+    color: #fff;
+  }
+  
+  details[open] summary {
+    color: #ffffff;
+  }
+  
+  details[open] {
+    background: #222;
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .get{
+    position: relative;
+    top: -40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .get button{
+    width: 150px;
+    height: 43px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .get button:hover{
+    background-color: rgb(190, 0, 0);
+  }
+
+  .get p{
+    color: white;
+    position: relative;
+    top: 5px;
+    font-size: 18px;
+  }
+
+  footer{
+    height: 255px;
+    width: 91%;
+    position: relative;
+    top: 20px;
+    left: 58px;
+  }
+
+  footer a{
+    color: #9b9b9b;
+  }
+
+  footer li{
+    list-style: none;
+  }
+
+  footer ul{
+    line-height: 40px;
+    display: inline;
+  }
+
+  .links1{
+    width: 25%;
+    z-index: 3;
+  }
+
+  .links2{
+    position: relative;
+    top: -200px;
+    z-index: 2;
+    display: flex;
+    justify-content: right;
+    width: 45%;
+  }
+
+  .links3{
+    position: relative;
+    top: -400px;
+    display: flex;
+    justify-content: right;
+    width: 80%;
+  }
+
+  .foot{
+    width: 91%;
+    height: 188px;
+    position: relative;
+    top: 100px;
+    left: 58px;
+  }
+
+  .foot select{
+    width: 145px;
+    height: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.594);
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding-left: 36.5px;
+    padding-right: 15px;
+  }
+
+  .foot select:hover{
+    border: 2px solid white;
+  }
+
+  .foot p{
+    color: #9b9b9b;
+    position: relative;
+    top: 30px;
+  }
+
+  
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller desktops */
+@media (max-width: 1024px) {
+  header h1,
+  header h2 {
+      font-size: 40px;
+  }
+
+  .head {
+      top: 150px;
+  }
+
+  .head input {
+      width: 300px;
+      font-size: 18px;
+  }
+
+  .head button {
+      width: 150px;
+      font-size: 18px;
+  }
+
+  .trend .select,
+  .trend .select2 {
+      width: 120px;
+      font-size: 16px;
+  }
+
+  .slider,
+  .slider2 {
+      padding: 10px;
+  }
+
+  .slide {
+      width: 100px;
+      height: 200px;
+  }
+
+  .slide img {
+      width: 100px;
+      height: 200px;
+  }
+
+  .slides p {
+      font-size: 16px;
+  }
+
+  .slides img {
+      width: 50px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  header h1,
+  header h2 {
+      font-size: 30px;
+  }
+
+  .head {
+      top: 100px;
+  }
+
+  .head input {
+      width: 250px;
+      font-size: 16px;
+  }
+
+  .head button {
+      width: 120px;
+      font-size: 16px;
+  }
+
+  .trend .select,
+  .trend .select2 {
+      width: 100px;
+      font-size: 14px;
+  }
+
+  .slider,
+  .slider2 {
+    position: relative;
+    top: 450px;
+      padding: 5px;
+  }
+
+  .slide {
+      width: 80px;
+      height: 150px;
+  }
+
+  .slide img {
+      width: 80px;
+      height: 150px;
+  }
+
+  .slides p {
+      font-size: 14px;
+  }
+
+  .slides img {
+      width: 40px;
+  }
+
+  .faq h1 {
+      font-size: 20px;
+  }
+
+  summary {
+      font-size: 16px;
+  }
+
+  .faq-answer {
+      font-size: 14px;
+  }
+
+  .get button {
+      width: 120px;
+      height: 35px;
+      font-size: 16px;
+  }
+
+  .get p {
+      font-size: 16px;
+  }
+
+  footer {
+      padding: 10px;
+  }
+
+  .foot select {
+      width: 120px;
+      height: 35px;
+      font-size: 16px;
+  }
+}
